@@ -1,6 +1,7 @@
 # BreachCompilation
 
 ALL THE TOOLS IN BreachCompilation
+
 Forked from martinteixeira and made some changes to improve it.
 
 Usage: 	
@@ -15,8 +16,8 @@ Import:
 
 
 Information:
-	All imported files are in "imported.log" file.
-	All data is in "data" folder.
+* All imported files are in "imported.log" file.
+* All data is in "data" folder.
 
 
 Use only for educational and penetration testing purposes.
