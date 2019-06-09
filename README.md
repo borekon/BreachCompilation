@@ -8,9 +8,11 @@ Usage:
 *	./query.sh example@example.com
 
 
+
+
 Import:
 
-	1. Add into _inputbreach_ breaches to make them look like "email@email.com:plaintext_password" (do not use space or special symbols in filename)
+	1. Add into 'inputbreach' folder breaches to make them look like "email@email.com:plaintext_password" (do not use space or special symbols in filename)
   
 	2. Then run ./sorter.sh
 
