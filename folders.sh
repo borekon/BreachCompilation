@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mkdir inputbreach
 install -D /dev/null data/0/0
 install -D /dev/null data/0/1
 install -D /dev/null data/0/2
