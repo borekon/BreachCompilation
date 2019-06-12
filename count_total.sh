@@ -9,6 +9,7 @@ do
     echo -n "[*] $in -               " | cut -z -b1-22
     echo -n "$count                  " | cut -z -b1-10
     echo    "(total: $total)";
-  fi;
+    echo $total > /tmp/total.txt
+  fi;   
 done
-echo "$(date +%D) -  $total" >> total.txt
+echo "$(date +%D) -  $(cat /tmp/total.txt)" >> total.txt
