@@ -43,7 +43,7 @@ find data | sort | while read path;
 do
 	if [ -f $path ]; then
 		echo "[*] Sorting $path" >> debug
-		sort $path -u -o $path\_
+		sort $path -u -o $path\_ #the -u parameter removes duplicate lines. The -o parameter writes to a file
 		mv $path\_ $path
 	fi
 done
