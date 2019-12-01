@@ -34,6 +34,8 @@ shasum="$(sha256sum "$inputfile" | cut -d' ' -f1)"
 		echo "[*] This breach is already imported." | tee -a debug
 		cat imported.log | grep "$shasum" | tee -a debug
 		echo "------------------------------------" | tee -a debug
+		echo "[*] Removing breach file $inputfile..." | tee -a debug
+		rm "$inputfile" | tee -a debug
 	fi
 done
 
